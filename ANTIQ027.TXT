@@ -1,0 +1,6 @@
+Title of Game: Antiquity
+Type of Game: Strategy
+Operating Sys: MS-DOS
+Uploader E-mail: dszkrisn@hp4.cbs.dk
+Date uploaded: 27 Oct 1995
+Short Descrip.: Alpha-version of a freeware Civilization Sequel

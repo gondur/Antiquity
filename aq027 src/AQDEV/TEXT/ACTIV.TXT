@@ -1,0 +1,20 @@
+
+1. IMPROVE CITY
+  Produce Improvement
+
+  Money, Resources
+
+2. CONSTRUCT VESSEL
+  Produce Special Unit (chariot, ships etc.)
+
+  Money, Manpower, Resources
+
+3. MANUFACTURE RESOURCES
+  Resource Transformation (iron -> iron swords)
+
+  Resources
+
+4. TRAIN MEN
+  Training of regular combat units
+
+  Manpower, Resources

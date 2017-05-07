@@ -1,0 +1,154 @@
+
+Format of the various C2 notices:
+
+..........................................................
+
+01 - UNIT KILLED
+
+       CivPointer = Attacking Civilization
+
+       DATA1 = Type of defending unit
+       DATA2 = X coordinate
+       DATA3 = Y coordinate
+
+..........................................................
+
+02 - CITY PRODUCED UNIT
+
+       CivPointer = Producing Civilization
+
+       DATA1 = Producing City
+       DATA2 = Unit type
+       DATA3 = N/A
+
+..........................................................
+
+03 - CITY MANUFACTURED RESOURCES
+
+       CivPointer = Producing Civilization
+
+       DATA1 = Producing City
+       DATA2 = Resource Transformation type
+       DATA3 = Amount of resources manufactured
+
+..........................................................
+
+04 - CITY PRODUCED IMPROVEMENT
+
+       CivPointer = Producing Civilization
+
+       DATA1 = Producing City
+       DATA2 = Improvement type
+       DATA3 = N/A
+
+..........................................................
+
+05 - UNIT STARVED TO DEATH
+
+       CivPointer = Owner Civilization
+
+       DATA1 = Type of starved unit
+       DATA2 = X coordinate
+       DATA3 = Y coordinate
+
+..........................................................
+
+06 - UNIT NOT PAID
+
+       CivPointer = Owner Civilization
+
+       DATA1 = Type of unit not paid
+       DATA2 = X coordinate
+       DATA3 = Y coordinate
+
+..........................................................
+
+07 - ETHNIC FRACTION MASSACRED
+
+       CivPointer = Owner of city
+
+       DATA1 = Ethnic fraction massacred
+       DATA2 = City
+       DATA3 = N/A
+
+..........................................................
+
+08 - CITY TAKEN
+
+       CivPointer = Conqueror of city
+
+       DATA1 = City
+       DATA2 = Money taken
+       DATA3 = N/A
+
+..........................................................
+
+09 - CITY REVERTED
+
+       CivPointer = New owner of city
+
+       DATA1 = City
+       DATA2 = N/A
+       DATA3 = N/A
+
+..........................................................
+
+10 - ETHNIC UNREST
+
+       CivPointer = Owner of city
+
+       DATA1 = City
+       DATA2 = Largest Ethnic Fraction
+       DATA3 = Second Largest Ethnic Fraction
+
+..........................................................
+
+11 - SHIP TAKEN
+
+       CivPointer = Conqueror of ship
+
+       DATA1 = Type of ship
+       DATA2 = X coordinate
+       DATA3 = Y coordinate
+
+..........................................................
+
+12 - CAN NOW PRODUCE
+
+       CivPointer = The discoverer
+
+       DATA1 = 1-Improvement, 2-Unit, 3-Hardwired
+       DATA2 = Improvement/Unit/Hardwired
+       DATA3 = N/A
+
+..........................................................
+
+13 - REFUGEES ARRIVE
+
+       CivPointer = Ethnic origin of the refugees
+
+       DATA1 = City of arrival
+       DATA2 = Aggressor
+       DATA3 = Originating city
+
+..........................................................
+
+14 - FREE TEXT MESSAGE
+
+       CivPointer = Originator of the message
+
+       DATA1 = City of origin
+       DATA2 = Message # on disk
+       DATA3 = Receiving city
+
+..........................................................
+
+15 - CARAVAN ROBBED
+
+       CivPointer = Origin of robbers
+
+       DATA1 = X coordinate
+       DATA2 = Y coordinate
+       DATA3 = Unit type
+
+..........................................................

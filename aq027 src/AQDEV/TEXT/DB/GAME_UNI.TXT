@@ -1,0 +1,1 @@
+"Id";"Moves Left";"Veteran";"Game Field Id";"Unit Type Id"

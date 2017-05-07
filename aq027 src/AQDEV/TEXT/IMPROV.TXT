@@ -1,0 +1,52 @@
+
+Soon available for your PC: ANTIQUITY!
+
+So, how does it compare with Civilization?
+
+IT IS BIGGER
+
+ * Larger maps
+     - up to 320x200
+
+ * More civilizations
+     - up to 30, of which all may be controlled by humans
+
+ * More units on the map at the same time
+     - up to 3000
+
+ * More cities
+     - up to 1000
+
+
+IT IS BETTER
+
+ Featuring:
+
+    * River boats
+    * Caravans with loading capabilities
+    * Emissaries with the ability to deliver messages
+    * Refugees
+    * Partisans
+
+    - All enemy boats and ships can be captured by enemy units
+    - Caravans may sell goods in other cities
+    - Caravans may be abducted by enemy units
+    - Caravans may supply military units with food
+    - Emissaries may be robbed of their messages
+    - Refugees and partisans move independently
+    - Refugees may settle in other cities and form ethnic minorities
+    - Partisans may attack units and cities
+
+ And:
+
+    * Civilizations are composed of 5 castes:
+         - Warriors, Merchants, Scholars, Artisans and Peasants
+
+    * Military units need food
+         - Requiring efficient supply lines for a campaign to be succesful
+
+    * Ethnic Unrest in cities
+         - Ethnic fractions may revolt or massacre each other
+
+    * Historical personalities
+         - From Socrates to Sun Tzu: They'll help your civilization prosper

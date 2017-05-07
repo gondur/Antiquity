@@ -1,0 +1,4 @@
+"Peak Year";"Name";"X coordinate";"Y coordinate";"Type";
+-410;"Plato";160;78;1               (1=Scholar)
+-330;"Alexander";160;69;2           (2=General as in "Military Leader")
+-50;"Caesar";152;76;3               (3=Politician)

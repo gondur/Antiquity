@@ -1,0 +1,3 @@
+"Child Advance Id";"Parent Advance Id";"Score Requirement"
+7;6;500
+8;7;1000

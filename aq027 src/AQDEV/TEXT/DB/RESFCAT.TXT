@@ -1,0 +1,31 @@
+"Id";"Name";"Movement Field Category Id";"Irrigation Transformation"
+1;"Plains";1;0
+2;"Tundra";1;0
+3;"Arctic";6;0
+4;"Mountains";5;0
+5;"Hillsides";6;0
+6;"Forest";1;61
+7;"Desert";1;0
+8;"Jungle";6;61
+9;"River";2;0
+10;"Ocean";4;0
+11;"Swamp";6;1
+12;"Grasslands";1;0
+13;"Oasis";1;0
+14;"Mountains/Iron";5;0
+15;"Mountains/Bronze";5;0
+16;"Mountains/Gold";5;0
+17;"Plains/Horses";1;0
+18;"Grasslands/Horses";1;0
+19;"Jungle/Spice";6;61
+20;"Jungle/Gold";6;61
+21;"River/Gold";2;0
+22;"Desert/Salt";1;0
+23;"Ocean/Salt";4;0
+24;"Swamp/Spice";6;1
+25;"Plains/Elephants";1;0
+26;"Grasslands/Spice";1;0
+27;"Plains/Spice";1;0
+28;"Coast";3;0
+29;"Coast/Salt";3;0
+30;"Not used";1;0

@@ -1,0 +1,12 @@
+"Id";"Name";"Research Points Required";"Starting Year"
+1;"Engineering";1000;-4000
+2;"Religion";400;-4000
+3;"Seafaring";1000;-4000
+4;"Literacy";750;-4000
+5;"Trade";500;-4000
+6;"Stoneworking";500;-4000
+7;"Bronzeworking";1000;-3000
+8;"Ironworking";1000;-1200
+9;"Animal Training";500;-4000
+10;"Weaponcrafting";1000;-4000
+11;"Agriculture";500;-4000

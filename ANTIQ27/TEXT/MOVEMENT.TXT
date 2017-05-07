@@ -1,0 +1,7 @@
+"Id";"Name";"Movement Cost";"Defense Bonus";"Action Capabilities"
+1;"Flat";10;10;15
+2;"River";10;10;15
+3;"Coast";10;10;0
+4;"Ocean";10;10;0
+5;"Mountains";30;30;14
+6;"Rough";15;20;15

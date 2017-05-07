@@ -1,0 +1,10 @@
+Information which should be shown in the status display:
+
+- Type of unit currently being moved
+- The amount of movement points left for the current unit
+* Units underneath the one currently being moved
+* Wealth of the active civilization
+* Name of the active civilization
+* Name of the terrain on which the current unit is standing
+* Game Year
+- Supply points left for the current unit

@@ -1,0 +1,1 @@
+http://web.archive.org/web/20091028060033/http://geocities.com/jvaldeztoo/cph/CSArchives/Antiquity027/Antiquity.htm

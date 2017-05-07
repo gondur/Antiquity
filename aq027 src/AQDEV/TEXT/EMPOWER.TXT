@@ -1,0 +1,43 @@
+
+ The following empowerments may be bestowed upon emissaries:
+
+............................................................
+
+ empMessage:
+
+    FREE TEXT MESSAGE
+
+      (H/L)
+      DATA2 = Message # on disk
+      DATA3 = N/A
+
+............................................................
+
+ empModThreat:
+
+    MODERATE THREAT
+
+      (H/L)
+      DATA2 = N/A
+      DATA3 = N/A
+
+............................................................
+
+ empVioThreat:
+
+    VIOLENT THREAT
+
+      (H/L)
+      DATA2 = N/A
+      DATA3 = N/A
+
+............................................................
+
+ empDeclareWar:
+
+    DECLARATION OF WAR
+
+      (H/L)
+      DATA2 = N/A
+      DATA3 = N/A
+

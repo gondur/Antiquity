@@ -1,0 +1,205 @@
+
+Engineering
+-----------
+
+I:	Primitive Temple		Religion
+	Shipyard			Boats I
+	Primitive Fortification
+	Library				Literacy I
+II:	Temple				Religion
+	Advanced Shipyard		Boats II?
+	Docks				Boats II?
+	Fortification
+	Advanced Library		Literacy II
+	School				Literacy II
+	Carpenters Workshop		???
+	Warehouse			???
+III:	Enhanced Temple			Religion
+	Enhanced Fortification
+	Advanced School			Literacy III
+IV:	Advanced Temple			Religion
+	Advanced Fortification
+	Arena
+	City Hall			???
+
+Calculating the 'national' literacy percentage:
+-----------------------------------------------
+
+NL% = lit + lit * lib + lit * sch
+
+lit = (Level of 'Literacy' advance) * 11
+lib =	summed result of: 
+		lbq * cpf
+	for each city
+sch =	summed result of:
+		scq * cpf
+	for each city
+cpf = The percentage of the 'national' population that the city constitutes
+lbq =	0.00 for no library in city
+	0.25 for 'library'
+	0.50 for 'advanced library'
+scq =	0.00 for no school in city
+	0.75 for 'school'
+	1.50 for 'advanced school'
+
+The result of this calculation is then divided by 6 to calculate the
+bonus applied to the 4 castes of society. The bonuses are calculated
+like this:
+
+	Primary Caste Bonus = 		3 * NL% / 6
+	Secondary Caste Bonus =		2 * NL% / 6
+	Tertiary Caste Bonus =		1 * NL% / 6
+	Quartiary Caste Bonus =		0 * NL% / 6
+
+The 4 castes and the areas to which the NL% bonus is applied are these:
+
+	Warriors	Attack Strength
+	Merchants	Selling Prices
+	Wisemen		Research Factor
+        Peasants	Food Income
+
+Contents of the ShadowMap Attribute Byte
+----------------------------------------
+  Is the field..
+0 Known?
+1 Irrigated?
+2 Roaded?
+3 Mined?
+4 Fortressed?
+5 Reserved
+6 Reserved
+7 Reserved
+
+Terrain/Resource Table
+----------------------
+
+		Food	Timber	Bronze	Iron	Stone   Defense Move  Salt  Gold  Spice  Horses  Elephants  Gfx#
+Plains		2	-	-	-	1	1x	10    -     -     -      -       -  	   *61, 63, 64, 67, 68, 86, 87, 88, 90, 92, 94, 95, 96
+Tundra		1	-	-	-	2	1x	15    -     -     -      -       -         *97
+Arctic		-	-	-	-	-	1x	20    -     -     -      -       -         *93
+Mountains	-	-	-	-	5	3x	30    -     -     -      -       -         *69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84
+Hillsides	1	-	-	-	2	2x	20    -     -     -      -       -         *130, 131, 132, 134, 135, 136, 138, 139, 140, 143, 144, 147, 148
+Forest		2	5	-	-	-	1.5x	20    -     -     -      -       -         *5, 9, 10, 13, 14
+Desert		-	-	-	-	1	1x	15    -     -     -      -       -         *85
+Jungle		1	3	-	-	-	3x	20    -     -     -      -       -         *4, 11, 12, 15, 16
+River		4	-	-	-	-	1x	10    -     -     -      -       -         *21, 25, 26, 28, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39
+Ocean		2	-	-	-	-	1x	10    -     -     -      -       -         *17, 18, 19, 20, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 57, 58, 59, 60
+Swamp		-	-	-	-	-	2x	20    -     -     -      -       -         *23
+Grasslands	3	-	-	-	-	1x	10    -     -     -      -       -         *1, 98, 99, 100, 102, 103, 104, 106, 107, 108
+Oasis           3       1       -       -       -       1x	10    -     -     -      -       -         *91
+Mountains/Iron  -	-	-	2	5	3x	30    -     -     -      -       -         *118, 119, 120, 121, 122, 123
+Mountains/Bronze-	-	2	-	5	3x	30    -     -     -      -       -         *124, 125, 126, 127, 128
+Mountains/Gold	-	-	-	-	5	3x	30    -     3     -      -       -         *109, 110, 111, 112, 113, 114, 115, 116, 117
+Plains/Horses	2	-	-	-	1	1x	10    -     -     -      3       -         *62
+Grasslands/Horse3	-	-	-	-	1x	10    -     -     -      2       -         *4,
+Jungle/Spice	1	3	-	-	-	3x	20    -     -     3      -       -         *7
+Jungle/Gold	1	3	-	-	-	3x	20    -     1     -      -       -         *8
+River/Gold	4	-	-	-	-	1x	10    -     2     -      -       -         *22, 29
+Desert/Salt	-	-	-	-	1	1x	15    3     -     -      -       -         *89
+Ocean/Salt	2	-	-	-	-	1x	10    2     -     -      -       -         *40, 56
+Swamp/Spice	-	-	-	-	-	2x	20    -     -     2      -       -         *24
+Plains/Elephant 2	-	-	-	1	1x	10    -     -     -      -       2         *65
+Grassland/Spice 3	-	-	-	-	1x	10    -     -     -      3       -         *3
+Plains/Spice	2	-	-	-	1	1x	10    -     -     2      -       -         *66
+
+Each food unit sustains 20,000 citizens/round.
+
+Ethnic Unrest
+-------------
+
+If the 
+
+Civilization initial coords
+---------------------------
+Name                  x    y
+Roman                 146  71
+Saxon                 142  58
+Gaulish               134  60
+Celt                  135  52
+Greek                 160  75
+Sumerian              181  81
+Babylonian            179  86
+Assyrian              179  78
+Egyptian              162  86
+Indus                 212  91
+Tupi                  62   114
+Chinese               265  67
+Aztec                 27   99
+Kushite               168  103
+Hittite               168  74
+Phoenician            170  78
+Persian               196  90
+Maya                  35   98
+Inca                  44   119
+Aboriginal            278  140
+Numidian              127  82
+Zulu                  158  148
+Scythian              168  52
+Hebrew                174  84
+Mongol                214  68
+Etruscan              146  67
+Macedonian            159  71
+Apache                40   81
+Sioux                 38   66
+Japanese              275  78
+
+Terrain Coding
+--------------
+tFlat		=	1	(Plains, Grasslands, Forest, Desert, Hills)
+tRiver		=	2	(River)
+tCoast		=	4	(Coast)
+tOcean		=	8	(Ocean)
+tMountains	=	16	(Mountains)
+tRough		=	32	(Swamp, Jungle)
+
+Possible combinations:
+
+3	=	tFlat + tRiver
+6	=	tRiver + tCoast
+12	=	tOcean + tCoast
+14	=	tOcean + tCoast + tRiver
+17	=	tMountains + tFlat
+18	=	tMountains + tRiver
+19	=	tMountains + tRiver + tFlat
+33	=	tRough + tFlat
+34	=	tRough + tRiver
+35	=	tRough + tRiver + tFlat
+48	=	tRough + tMountains
+49	=	tRough + tMountains + tFlatS
+50	=	tRough + tMountains + tRiver
+51	=	tRough + tMountains + tRiver + tFlat
+63	=	Everything
+
+Unit Statistics
+---------------
+
+Unit		Moves	Defense	Attack	Terrain	Carries
+-------------------------------------------------------
+Settlers	10	10	-	51	-
+Refugees	10	-	-	51	-
+Partisan	10	20	20	51	-
+Caravan		10	10	-	51	1
+Flint Dagger	10	10	10	51	-
+Flint Spear	10	10	15	51	-
+Flint Sword	10	10	20	51	-
+Flint Bow	10	20	10	51	-
+Bronze Dagger	10	15	25	51	-
+Bronze Spear	10	15	30	51	-
+Bronze Sword	10	15	35	51	-
+Bronze Bow	10	30	20	51	-
+Iron Dagger	10	25	40	51	-
+Iron Spear	10	25	45	51	-
+Iron Sword	10	25	50	51	-
+Iron Bow	10	40	30	51	-
+Chariot		30	15	40	3	-
+Catapult	10	10	80	3	-
+River Boat	30	10	-	2	2
+Coaster		40	10	10	6	2
+Early Trader	30	10	10	12	3
+Warship		30	20	20	12	2
+Myoparone	40	10	20	12	1
+Bireme		30	20	30	12	2
+Trireme		40	20	40	12	3
+Trader		30	20	10	12	4
+Quinqerime	50	20	50	12	3
+Galley		50	30	70	12	4

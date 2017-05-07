@@ -1,0 +1,31 @@
+"Id";"Name";"Production Required";"Parent Improvement";"# of pictures"
+1;"Shrine";5;0;1
+2;"Temple";10;1;1
+3;"Temple Complex";20;2;2
+4;"Main Temple";35;3;2
+5;"Shipyard";15;0;1
+6;"Great Shipyard";25;5;2
+7;"Fence";8;0;1
+8;"Stockage";15;7;1
+9;"City Walls";25;8;1
+10;"Fortification";40;9;1
+11;"Archives";7;0;1
+12;"Library";15;11;1
+13;"Main Library";25;12;2
+14;"Tutors Residence";7;0;1
+15;"School";15;14;1
+16;"Stables";12;0;1
+17;"Carpenters Workshop";10;0;1
+18;"Warehouse";12;0;1
+19;"Arena";30;0;2
+20;"Capitolium";50;0;2
+21;"Granary";10;0;1
+22;"Barracks";12;0;1
+23;"Flintmakers Workshop";7;0;1
+24;"Bronzesmith";12;0;1
+25;"Blacksmith";20;0;1
+26;"School of Riding";15;16;2
+27;"Docks";25;0;2
+28;"Military Academy";15;0;1
+29;"Minor Aqueduct";30;0;1
+30;"Major Aqueduct";40;29;1

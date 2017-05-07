@@ -1,0 +1,74 @@
+"Id";"Name";"Attack Strength";"Defense Strength";"Max Movement";"Max Capacity";"Action Capability";"Improvement Required"
+1;"Settler";0;10;10;0;15;0
+2;"Refugees";0;0;10;0;0;0
+3;"Caravan";0;10;10;1;64;0
+4;"Mtd Caravan";0;10;20;2;64;0
+5;"Flint Dagger";10;10;10;0;0;0
+6;"Flint Spear";15;10;10;0;0;0
+7;"Flint Sword";20;10;10;0;0;0
+8;"Flint Bow";10;20;10;0;0;0
+9;"Mtd Flint Dagger";10;10;20;0;0;0
+10;"Mtd Flint Spear";15;10;20;0;0;0
+11;"Mtd Flint Sword";20;10;20;0;0;0
+12;"Mtd Flint Bow";10;20;20;0;0;0
+13;"Wh Mtd Flint Dagger";15;10;25;0;0;0
+14;"Wh Mtd Flint Spear";20;10;25;0;0;0
+15;"Wh Mtd Flint Sword";25;10;25;0;0;0
+16;"Wh Mtd Flint Bow";10;25;25;0;0;0
+17;"Bronze Dagger";25;15;10;0;0;0
+18;"Bronze Spear";30;15;10;0;0;0
+19;"Bronze Sword";35;15;10;0;0;0
+20;"Bronze Bow";20;30;10;0;0;0
+21;"Mtd Bronze Dagger";25;15;20;0;0;0
+22;"Mtd Bronze Spear";30;15;20;0;0;0
+23;"Mtd Bronze Sword";35;15;20;0;0;0
+24;"Mtd Bronze Bow";20;30;20;0;0;0
+25;"Wh Mtd Bronze Dagger";30;15;25;0;0;0
+26;"Wh Mtd Bronze Spear";35;15;25;0;0;0
+27;"Wh Mtd Bronze Sword";40;15;25;0;0;0
+28;"Wh Mtd Bronze Bow";20;35;25;0;0;0
+29;"Iron Dagger";40;25;10;0;0;0
+30;"Iron Spear";45;25;10;0;0;0
+31;"Iron Sword";50;25;10;0;0;0
+32;"Iron Bow";35;40;10;0;0;0
+33;"Mtd Iron Dagger";40;25;20;0;0;0
+34;"Mtd Iron Spear";45;25;20;0;0;0
+35;"Mtd Iron Sword";50;25;20;0;0;0
+36;"Mtd Iron Bow";35;40;20;0;0;0
+37;"Wh Mtd Iron Dagger";45;25;25;0;0;0
+38;"Wh Mtd Iron Spear";50;25;25;0;0;0
+39;"Wh Mtd Iron Sword";55;25;25;0;0;0
+40;"Wh Mtd Iron Bow";35;45;25;0;0;0
+41;"Partisan";20;20;20;0;0;0
+42;"4-Wheeled Chariot";35;15;20;0;0;17
+43;"2-Wheeled Chariot";45;10;30;0;0;28
+44;"Catapult";70;10;10;0;0;28
+45;"River Boat";0;10;30;2;128;5
+46;"Explorer";10;10;40;2;128;5
+47;"Trader";0;10;30;3;128;5
+48;"Warship";20;20;30;2;128;6
+49;"Myoparone";20;10;40;1;128;6
+50;"Bireme";30;20;30;2;128;6
+51;"Trireme";40;20;40;3;128;6
+52;"Great Trader";10;20;30;4;128;6
+53;"Galley";30;30;30;5;128;6
+54;"Emissary";0;10;20;0;32;0
+55;"Mtd Emissary";0;10;30;0;32;0
+56;"Elephant";55;25;10;0;0;28
+57;"Quinquireme";50;30;50;3;128;6
+58;"Quadreme";45;20;45;3;128;6
+59;"New1";0;0;0;0;0
+60;"New2";0;0;0;0;0
+61;"Exp1, Frame 1";0;0;0;0;0
+62;"Exp1, Frame 2";0;0;0;0;0
+63;"Exp1, Frame 3";0;0;0;0;0
+64;"Exp1, Frame 4";0;0;0;0;0
+65;"Exp1, Frame 5";0;0;0;0;0
+66;"Exp1, Frame 6";0;0;0;0;0
+67;"Exp2, Frame 1";0;0;0;0;0
+68;"Exp2, Frame 2";0;0;0;0;0
+69;"Exp2, Frame 3";0;0;0;0;0
+70;"Exp2, Frame 4";0;0;0;0;0
+71;"Exp2, Frame 5";0;0;0;0;0
+72;;0;0;0;0;0
+73;;0;0;0;0;0

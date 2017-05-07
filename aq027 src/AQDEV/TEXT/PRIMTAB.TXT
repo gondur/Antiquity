@@ -1,0 +1,15 @@
+Table of military units produced
+by primitive tribes at various
+stages of their expansion:
+
+Unit Type	# of cities
+------------------------------
+Flint Dagger		1-8
+Flint Spear		9-16
+Flint Sword		17-25
+Bronze Dagger		26-31
+Bronze Spear		32-40
+Bronze Sword		41-45
+Iron Dagger		46-50
+Iron Spear		51-56
+Iron Sword		57+

@@ -1,0 +1,67 @@
+Example:
+
+Babylon
+-------
+
+30,000 Egyptians
+70,000 Babylonians
+
+Has Temple Complex
+
+Conquered by the Egyptians
+who have 1 Mounted Flint Sword unit holding it.
+
+DISTRIBUTION:
+
+Egyptians	30pts +  50pts	=  80pts =	36%
+Babylonians	70pts x2	= 140pts =	64%
+
+Resulting in Ethnic Unrest:
+
+The odds are in the Babylonians favour - 64 vs 36. The outcome is in
+favour of the Egyptians though:
+
+10,000 Babylonians are massacred
+10,000 Babylonians become refugees
+10,000 Babylonians become partisans
+
+Babylon
+-------
+
+30,000 Egyptians
+40,000 Babylonians
+
+Has Temple Complex
+
+Conquered by the Egyptians
+who have 1 Mounted Flint Sword unit holding it.
+
+DISTRIBUTION
+
+Egyptians	43pts +  50pts	=  93pts =	45%
+Babylonians	57pts x2	= 114pts =	55%
+
+Resulting in yet another turn of Ethnic Unrest:
+
+The odds are still in the Babylonians favour -
+but the outcome is not.
+
+10,000 Babylonians are massacred
+10,000 Babylonians become refugees
+10,000 Babylonians become partisans
+
+Babylon
+-------
+
+30,000 Egyptians
+10,000 Babylonians
+
+Has Temple Complex
+
+Conquered by the Egyptians
+who have 1 Mounted Flint Sword unit holding it.
+
+DISTRIBUTION
+
+Egyptians	75pts x2 + 50pts 	= 200pts	=	89%
+Babylonians	25pts			= 25pts		= 	11%
